@@ -25,6 +25,7 @@ public class ArrayDemo {
 		arrayStr[0]="蛤蟆吉";
 		System.out.println(arrayStr[0]);
 		System.out.println(arrayStr[1]);
+		System.out.println(arrayStr.length);
 	}
 
 }

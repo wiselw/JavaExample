@@ -5,7 +5,7 @@ public class SwitchDemo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//
-		switchTest(2);
+		switchTest(1);
 	}
 	
 	public static void switchTest(int dayOfWeek){

@@ -4,9 +4,9 @@ public class ReturnContinueBreak {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//ReturnTest();
+		ReturnTest();
 		//ContinueTest();
-		BreakTest();
+		//BreakTest();
 
 	}
 	public static void ReturnTest(){
@@ -18,6 +18,7 @@ public class ReturnContinueBreak {
 				System.out.println(i);
 			}
 		}
+		System.out.println("ret");
 	}
 	public static void ContinueTest(){
 		for (int i = 0; i < 10; i++) {
@@ -40,6 +41,7 @@ public class ReturnContinueBreak {
 			}
 			System.out.println("break:"+i);
 		}
+		System.out.println("break");
 	}
 
 }

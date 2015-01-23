@@ -11,12 +11,13 @@ public class CollectionDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		collectionTest();
-		setTest();
+		//collectionTest();
+		//setTest();
+		testtoString();
 	}
 	public static void collectionTest() {
 		Collection c= new ArrayList();
-		c.add("方正");//添加元素
+		c.add("a");//添加元素
 		c.add(1);//添加同类型的元素
 		System.out.println("c的元素个数："+c.size());
 		c.remove(1);//删除元素
@@ -61,5 +62,15 @@ public class CollectionDemo {
 		}
 		
 	}
-
+    public static void testtoString(){
+    	ArrayList<ArrayList> all = new ArrayList<ArrayList>();
+    	ArrayList<String> resultList1 = new ArrayList<String>();
+    	resultList1.add("aaaaa");
+    	resultList1.add("bbbbb");
+    	resultList1.add("ccccc");
+    	all.add(all);
+    	System.out.println("all中元素："+all);
+    	System.out.println("resultList1中元素："+resultList1);
+    	//resultList1.clear();
+    }
 }
