@@ -56,6 +56,7 @@ public class IOTest {
 			BufferedReader bf;
 			try (InputStream in=new FileInputStream(path)){
 				bf = new BufferedReader(new InputStreamReader(in,"UTF-8"));
+				
 				pro.load(bf);
 			} catch (UnsupportedEncodingException e1) {
 				// TODO Auto-generated catch block
