@@ -3,6 +3,7 @@ package com.train;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Properties;
@@ -38,6 +39,7 @@ public class MapDemo {
 		System.out.println(map.size());
 		System.out.println(map.get("env"));
 	}
+	
 	public static void configTest() throws IOException{
 		Properties properties=new Properties();
 		properties.load(MapDemo.class.getResourceAsStream("config.properties"));
